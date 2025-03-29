@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Scroll Perspective with Smooth Scrolling
 
-## Getting Started
+## Overview
+This project is a Next.js application that implements a smooth scrolling effect with `Lenis` and section transitions using `framer-motion`. The effect creates a perspective illusion as the user scrolls, making the UI more interactive and visually appealing.
 
-First, run the development server:
+## Features
+- **Smooth Scrolling**: Implemented using the `Lenis` library for a fluid scrolling experience.
+- **Section Transitions**: Sections animate based on scroll progress using `framer-motion`.
+- **Sticky and Perspective Effects**: The first section scales and rotates while scrolling.
+- **Image Display**: The second section contains a full-screen background image that rotates and scales.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **Next.js**: React framework for SSR and static site generation.
+- **Lenis**: Smooth scrolling library for enhanced UX.
+- **Framer Motion**: Animation library for creating scroll-based transformations.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
+To run this project locally, follow these steps:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/adity672roy/section-transition.git
+   cd section-transition
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open `http://localhost:3000` in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
+- Scroll down the page to see the smooth scrolling effect and transitions.
+- The section scale and rotates as you scroll. 
 
-## Learn More
+## Customization 
+- Modify animation parameters in `useTransform` for different effects.
+- Adjust styles using Tailwind CSS classes.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Dependencies
+- `next`
+- `react`
+- `react-dom`
+- `lenis`
+- `framer-motion`
+- `tailwindcss`
+ 
