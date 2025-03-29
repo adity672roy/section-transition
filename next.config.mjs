@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: ["images.unsplash.com"], // Allow Unsplash images
+  },
+};
 
-export default nextConfig;
+export default nextConfig; // ✅ Use ES module syntax
