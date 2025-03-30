@@ -39,13 +39,9 @@ const Section1 = ({ scrollYProgress }) => {
   return (
     <motion.div
       style={{ scale, rotate }}
-      className="sticky top-0 h-screen  bg-[#C72626] text-[5vw] flex flex-col items-center justify-center text-white pb-[10vh]"
+      className="sticky top-0 h-screen  bg-white text-2xl flex flex-col items-center justify-center p-10"
     >
-      <p>Scroll Perspective</p>
-      <div className="flex gap-4">
-        <p>Section</p>
-        <p>Transition</p>
-      </div>
+      <p>This is a Next.js application that implements a smooth scrolling effect with `Lenis` and section transitions using `framer-motion`. The effect creates a perspective illusion as the user scrolls, making the UI more interactive and visually appealing.</p>
     </motion.div>
   );
 };
