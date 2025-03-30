@@ -48,4 +48,8 @@ To run this project locally, follow these steps:
 - `lenis`
 - `framer-motion`
 - `tailwindcss`
+<<<<<<< HEAD
  
+=======
+ 
+>>>>>>> 6f62de982342bd35638faf8154ebc472fa9347c8
